@@ -595,10 +595,10 @@ footer {
         background-color: var(--darker);
         flex-direction: column;
         align-items: center;
-        padding: 1.5rem 0 2rem 0;
+        padding: 1.5rem 0 2rem;
         box-shadow: var(--shadow);
-        transform: translateY(-150%);
-        transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+        transform: translateY(-100%);
+        transition: all 0.3s ease;
         z-index: 99;
         width: 100%;
         opacity: 0;
